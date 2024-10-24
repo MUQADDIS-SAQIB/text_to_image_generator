@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script type="text/javascript" src="{{ url_for('static', filename='js/node.js') }}" defer></script>
+</head>
+<body>
+    <h1>Welcome to Your Page</h1>
+
+    <!-- Correct link to the msg route -->
+    <input type="button" onclick="Hello()" value="click here">
+   <a href="{{ url_for('msg') }}">
+    <button>Go to Page</button>
+
+</a>
+    <br>
+
+    <!-- Image reference -->
+    <img src="{{ url_for('static', filename='images/img_2.jpeg') }}" alt="Image">
+
+</body>
+</html>
+

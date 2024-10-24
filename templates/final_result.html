@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h1>Generated Stickers</h1>
+{% for index in range(3) %}
+    <div>
+        <p>Sticker {{ index + 1 }}</p>
+        <img src="data:image/jpeg;base64,{{ images[index] }}" alt="Sticker {{ index + 1 }}">
+        <a href="/download_image/{{ index }}">Download Sticker {{ index + 1 }}</a>
+    </div>
+{% endfor %}
+<button onclick="window.location.href='/'">Try Again</button>
+
+
+</body>
+</html>

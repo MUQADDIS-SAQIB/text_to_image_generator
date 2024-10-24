@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+<p><b>Thank you for registration</b></p>
+<table border="1">
+    <!-- Corrected the for loop syntax -->
+    {% for key, value in result.items() %}
+    <tr>
+        <th>{{ key }}</th>
+        <td>{{ value }}</td>
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>

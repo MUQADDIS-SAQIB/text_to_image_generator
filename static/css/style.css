@@ -1,0 +1,106 @@
+/* Navbar styling */
+.navbar {
+  background-color: #141415;
+}
+.navbar-brand img {
+  height: 40px;
+}
+.nav-link, .navbar-brand, .dropdown-item {
+  color: #d1d1d1 !important;
+}
+.nav-link:hover, .dropdown-item:hover {
+  color: #fff !important;
+}
+.nav-item .badge {
+  background-color: #ff4b4b;
+  font-size: 0.8rem;
+  position: relative;
+  top: -10px;
+  margin-left: 5px;
+}
+.btn-login {
+  background-color: #9b5de5;
+  color: white;
+  border-radius: 20px;
+}
+.btn-login:hover {
+  background-color: #7a47b3;
+}
+.dropdown-menu {
+  background-color: #000;
+}
+.dropdown-item:hover {
+  background-color: #333 !important;
+  color: white !important;
+}
+.fa-bars {
+  color: white;
+}
+.badge-button {
+  background-color: white;
+  color: lightblue;
+  border: 1px solid lightblue;
+  border-radius: 50%;
+  padding: 3px 3px;
+  font-size: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Parent and child div styling */
+.parent {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: black;
+  padding: 20px;
+  height: auto;
+}
+.child_1 {
+  flex: 1;
+  margin-left: 80px;
+}
+.child_2 {
+  flex: 1;
+}
+
+/* Button group and scale buttons */
+.button-group {
+  background-color: #1a1a1a;
+  border-radius: 30px;
+  border: 2px solid #444;
+  width: 100%;
+  display: flex;
+  padding: 5px;
+}
+.button-group .btn {
+  flex: 1;
+  padding: 10px;
+  color: white;
+}
+.button-group .active {
+  background-color: #8e4ce2;
+}
+.button-group .new-btn {
+  background-color: #f0f0f5;
+  color: black;
+  border-radius: 50px;
+  height: 30px;
+  padding: 5px 10px;
+}
+
+/* Scale buttons grid */
+.ratio-button {
+  background-color: #2b2b2b;
+  color: white;
+  padding: 15px 30px;
+  margin: 0px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100px;
+}
+.ratio-button.active {
+  background-color: #a46ce7;
+}
+.button
